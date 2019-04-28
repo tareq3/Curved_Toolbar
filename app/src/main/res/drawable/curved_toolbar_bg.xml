@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Tareq Islam on 4/28/19 5:38 PM
+  ~
+  ~  Last modified 4/28/19 5:38 PM
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"/>
+    </item>
+    <item
+        android:bottom="0dp"
+        android:left="-100dp"
+        android:right="-100dp"
+        android:top="-80dp"
+        >
+        <shape android:shape="oval">
+                <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</layer-list>
